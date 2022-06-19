@@ -1,0 +1,33 @@
+function navobar(){
+    return ` <div class="micandeng"   >
+        
+    <svg  style="height: 30px; " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" aria-hidden="true" focusable="false"><defs><style>.a{fill:none}</style></defs><path d="M-624.73-527.348h1840v861h-1840z" class="a"></path><path d="M-624.73-562.182h1840v861h-1840z" class="a"></path><path d="M-642.564-527.348h1840v861h-1840z" class="a"></path><path d="M-642.564-562.182h1840v861h-1840z" class="a"></path><path d="M-642.96-527.348h1840v861h-1840z" class="a"></path><path d="M-642.96-562.182h1840v861h-1840z" class="a"></path><path d="M-660.793-527.348h1840v861h-1840z" class="a"></path><path d="M-660.793-562.182h1840v861h-1840z" class="a"></path><path d="M-642.73-527.348h1840v861h-1840z" class="a"></path><path d="M-642.73-562.182h1840v861h-1840z" class="a"></path><path d="M-660.564-527.348h1840v861h-1840z" class="a"></path><path d="M-660.564-562.182h1840v861h-1840z" class="a"></path><path d="M-660.96-527.348h1840v861h-1840z" class="a"></path><path d="M-660.96-562.182h1840v861h-1840z" class="a"></path><path d="M-678.793-527.348h1840v861h-1840z" class="a"></path><path d="M-678.793-562.182h1840v861h-1840z" class="a"></path><path d="M-624.73-595.682h1840v861h-1840z" class="a"></path><path d="M-624.73-630.515h1840v861h-1840z" class="a"></path><path d="M-642.564-595.682h1840v861h-1840z" class="a"></path><path d="M-642.564-630.515h1840v861h-1840z" class="a"></path><path d="M-642.96-595.682h1840v861h-1840z" class="a"></path><path d="M-642.96-630.515h1840v861h-1840z" class="a"></path><path d="M-660.793-595.682h1840v861h-1840z" class="a"></path><path d="M-660.793-630.515h1840v861h-1840z" class="a"></path><path d="M-642.73-595.682h1840v861h-1840z" class="a"></path><path d="M-642.73-630.515h1840v861h-1840z" class="a"></path><path d="M-660.564-595.682h1840v861h-1840z" class="a"></path><path d="M-660.564-630.515h1840v861h-1840z" class="a"></path><path d="M-660.96-595.682h1840v861h-1840z" class="a"></path><path d="M-660.96-630.515h1840v861h-1840z" class="a"></path><path d="M-678.793-595.682h1840v861h-1840z" class="a"></path><path d="M-678.793-630.515h1840v861h-1840z" class="a"></path><path d="M8.742 14.554a7.027 7.027 0 1 0-4.97-2.056 7.01 7.01 0 0 0 4.97 2.056zM4.527 3.312a5.961 5.961 0 1 1 0 8.43 5.943 5.943 0 0 1 0-8.43z"></path><path d="M15.49 14.275a9.542 9.542 0 0 0 0-13.495l-.756.756A8.473 8.473 0 0 1 2.75 13.519l-.756.756a9.51 9.51 0 0 0 6.73 2.79v1.366H4.433V19.5h9.653v-1.07H9.794v-1.428a9.492 9.492 0 0 0 5.696-2.727z"></path></svg>
+    <select name="" id="english" style="height: 30px;  ">
+    
+        <option value="Currency">Currency</option>
+        <option value="USD ($)">USD ($)</option>
+        <option value="Language">Language</option>
+        <option value="English  French"><a href="">English</a> <a href=""> French</a></option>
+    </select>
+</div>
+<div class="login"   >
+    
+    <svg class="imggg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" aria-hidden="true" role="img" focusable="false"><defs><style>.a{fill:none}</style></defs><path d="M-559.918-527.348h1840v861h-1840z" class="a"></path><path d="M-559.918-562.182h1840v861h-1840z" class="a"></path><path d="M-577.751-527.348h1840v861h-1840z" class="a"></path><path d="M-577.751-562.182h1840v861h-1840z" class="a"></path><path d="M-578.147-527.348h1840v861h-1840z" class="a"></path><path d="M-578.147-562.182h1840v861h-1840z" class="a"></path><path d="M-595.98-527.348h1840v861h-1840z" class="a"></path><path d="M-595.98-562.182h1840v861h-1840z" class="a"></path><path d="M-577.918-527.348h1840v861h-1840z" class="a"></path><path d="M-577.918-562.182h1840v861h-1840z" class="a"></path><path d="M-595.751-527.348h1840v861h-1840z" class="a"></path><path d="M-595.751-562.182h1840v861h-1840z" class="a"></path><path d="M-596.147-527.348h1840v861h-1840z" class="a"></path><path d="M-596.147-562.182h1840v861h-1840z" class="a"></path><path d="M-613.98-527.348h1840v861h-1840z" class="a"></path><path d="M-613.98-562.182h1840v861h-1840z" class="a"></path><path d="M-559.918-595.682h1840v861h-1840z" class="a"></path><path d="M-559.918-630.515h1840v861h-1840z" class="a"></path><path d="M-577.751-595.682h1840v861h-1840z" class="a"></path><path d="M-577.751-630.515h1840v861h-1840z" class="a"></path><path d="M-578.147-595.682h1840v861h-1840z" class="a"></path><path d="M-578.147-630.515h1840v861h-1840z" class="a"></path><path d="M-595.98-595.682h1840v861h-1840z" class="a"></path><path d="M-595.98-630.515h1840v861h-1840z" class="a"></path><path d="M-577.918-595.682h1840v861h-1840z" class="a"></path><path d="M-577.918-630.515h1840v861h-1840z" class="a"></path><path d="M-595.751-595.682h1840v861h-1840z" class="a"></path><path d="M-595.751-630.515h1840v861h-1840z" class="a"></path><path d="M-596.147-595.682h1840v861h-1840z" class="a"></path><path d="M-596.147-630.515h1840v861h-1840z" class="a"></path><path d="M-613.98-595.682h1840v861h-1840z" class="a"></path><path d="M-613.98-630.515h1840v861h-1840z" class="a"></path><path d="M10 11.32a5.588 5.588 0 1 1 5.588-5.587A5.594 5.594 0 0 1 10 11.321zm0-10.024a4.437 4.437 0 1 0 4.437 4.437A4.442 4.442 0 0 0 10 1.296z"></path><path d="M19.5 19.855H.5v-.575a11.422 11.422 0 0 1 4.132-8.988l.712.906a10.176 10.176 0 0 0-3.678 7.506h16.668a10.178 10.178 0 0 0-3.677-7.506l.711-.906A11.423 11.423 0 0 1 19.5 19.28z"></path></svg>
+    <a href="loginpage.html" >Sign In</a>
+    <p id="loginslash">/</p>    
+    <a href="signuppage.html"> Sign Up</a>
+</div>
+</div>
+
+<div id="logoandhome">
+<div class="companylogos">
+    <img class="companylogo" onclick="homefunction()" src="//images.ctfassets.net/5de70he6op10/53ZOE4rRqrxcvv0hg2eSLV/a849085e5f600c618132be2475017746/anthro-logo.svg" alt="Anthropologie">
+    <img class="companylogo" onclick="homefunction()" src="//images.ctfassets.net/5de70he6op10/y1O9tEDOvCGliGUvT9RoJ/eb8ab4734c5e3778b8b61da70ed441ac/AL_NewLogo_2.svg" alt="AnthroLiving"/>
+</div>
+<div class="serchandcart" >
+    <input class ="input"  id="searchApi" aria-label="Search" placeholder="Search Anthropologie" >
+    <svg  id = "imgbag" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-label="Cart" role="img" focusable="false"><path d="M14.78 6.49V5.185C14.78 2.601 12.637.5 10 .5S5.22 2.601 5.22 5.184v1.307H0v7.973C0 17.24 2.357 19.5 5.254 19.5h9.493c2.897 0 5.253-2.26 5.253-5.036V6.49zM6.22 5.185C6.22 3.153 7.914 1.5 10 1.5s3.78 1.653 3.78 3.684v1.307H6.22zM19 14.464c0 2.225-1.908 4.036-4.253 4.036H5.254C2.908 18.5 1 16.69 1 14.464V7.49h4.22v2.427h1V7.491h7.56v2.427h1V7.491H19z"></path></svg>
+</div>`
+}
+
+export {navobar}

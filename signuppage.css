@@ -1,0 +1,52 @@
+
+.signtext{
+   
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.signtext + div{
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+width: 300px;
+/* border: black solid 1px; */
+margin: auto;
+padding: 30px;
+}
+.h3{
+font-family: 'Courier New', Courier, monospace;
+}
+
+#navbar{
+display: flex;
+justify-content: space-evenly;
+padding: 1%;
+box-shadow: 2px 2px 5px 5px rgb(235, 235, 235);
+}
+
+#form >input{
+width: 90%;
+padding: 10px;
+}
+#form >input:last-child{
+width: 100%;
+
+}
+#submit{
+margin:auto;
+width: 100%; 
+margin-top: 20px;
+padding: 5px  20px 5px 20px;
+background-color:rgb(214, 201, 201);
+font-weight: 900;
+color:blue;
+border: 0px;
+border-radius: 2px;
+cursor: pointer;
+font-family: 'Courier New', Courier, monospace;
+}
+body{
+background-color: rgb(236, 237, 238);
+}
+.box{
+background-color: white;
+}
