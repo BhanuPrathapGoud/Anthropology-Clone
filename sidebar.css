@@ -1,0 +1,30 @@
+.sidebar{
+    width: 18%;
+    padding: 20px;
+}
+.dress-menu{
+    margin-top: 30px;
+}
+.dress-menu>a{
+    text-decoration: none;
+}
+.dress-menu>ul>li>{
+    margin-top: 10px;
+    padding: 0 0 15px;
+}
+.dress-menu>ul>li>a{
+    text-decoration: none;
+    color: #26262c;
+}
+
+li{ padding: 0 0 15px;
+
+    font: 1.3rem/1.3 Avenir Medium,sans-serif;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.dress-menu>ul>li>a:hover{
+    text-decoration: underline;
+}
+
