@@ -58,6 +58,12 @@ document.querySelector("#myHeader").innerHTML = menu()
 
 import { footer , read } from "./footer.js";
 
+
+let rrr =  document.getElementById("imgbag");
+rrr.addEventListener("click",function(){
+    window.location = "./cart.html"
+})
+
 document.querySelector(".foter").innerHTML = footer();
 document.querySelector(".read").innerHTML = read();
 
@@ -203,6 +209,10 @@ displayProduct(dataArr)
 function displayProduct(dataArr){
     dataArr.forEach(function(ele){
     var divall=document.createElement("div");
+    divall.addEventListener("click",function(){
+        console.log(ele)
+        clickfunction(ele)
+    })
     var divgrid=document.createElement("div");
 
     var img=document.createElement("img");
@@ -280,5 +290,9 @@ function Shortfun(){
         })
     }
     document.querySelector(".productitems").innerHTML="";
-    display(h)
+    displayProduct(h)
+}
+function clickfunction(el){
+    localStorage.setItem("clickeditem",JSON.stringify(el))
+   window.location.href="description.html"
 }

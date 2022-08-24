@@ -1,0 +1,91 @@
+.Navsecond{
+   
+    position: relative;
+   height: 30px;
+      
+      width: 100%;
+      padding-top: 10px;
+      padding-bottom: 10px;
+     
+}
+.micandeng{
+    position: absolute; 
+    right: 200px ;
+   
+      display: flex;
+      gap: 0px;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.login{
+    position: absolute; 
+    height: 30px;
+    right: 0px ;
+     
+      display: flex;
+      gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    
+}
+.login > a{
+    text-decoration: none;
+    color: #26262c;
+    font: 1.3rem/1.3 Avenir Medium,sans-serif;
+    font-size: 14px;
+   
+   
+}
+.imggg{
+    height: 30px;
+    display: flex;
+    align-items:center ;
+   
+}
+.ancor{
+    height: 30px;
+}
+.loginslash{
+  height: 30px; display: flex;align-items: center;
+}
+#logoandhome{
+    height: auto;
+ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
+
+    
+}
+.companylogos{
+    display: flex;
+    padding-top: 10px;
+    
+   
+}
+.companylogo{
+ 
+    padding: 20px 10px 20px 10px;
+    border: 1px solid lightslategray;
+    cursor: pointer;
+}
+
+.serchandcart{
+    display: flex;
+    gap: 30px;
+    
+}
+input{
+    height: 50px;
+    width: 300px;
+}
+#imgbag{
+    margin-top: 10px;
+    height: 30px;
+}

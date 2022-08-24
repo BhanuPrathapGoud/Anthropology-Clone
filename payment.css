@@ -1,0 +1,249 @@
+
+.cartandodersummary{
+    width: 90%;margin: auto;
+    height: auto;
+    
+    display: flex;
+    font: 1.3rem/1.5 Avenir Book,sans-serif;
+    font-size: 16px;
+    
+}
+.form{
+    width: 70%;    
+    height: 100%;
+   
+    
+}
+
+#formptags p{
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+#formptags select{
+    width: 300px;
+    height: 50px;    
+    border-radius: 5px;
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+}
+.formptags input{
+    width: 200px;
+    height: 40px;    
+}
+
+
+.ordersummay{
+    width: 30%;        
+   
+    height: 100%;
+    
+   
+}
+.cartcomtainer{
+    width: 95%;
+   
+    /* border: 1px solid red; */
+    display: flex;
+    
+}
+.cartcomtainer > div{
+   
+    width: 15%;
+    border-bottom: 1px solid lightslategray;
+    border-top: 1px solid lightslategray;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cartcomtainer > div:first-child{
+    width: 55%;
+    
+    /* border: 1px solid red; */
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#cartdetail{
+    width: 95%;
+   height: auto;
+    
+   padding-right: 5%;
+   
+    
+    
+}
+.datadiv{
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid lightslategray;
+     display: flex;
+     margin-top: 15px;
+     padding-bottom: 15px;
+}
+.imageandetail{
+    width: 55%;
+    height: 240px;
+    
+     display: flex;
+     
+}
+.item{
+    width: 15%;
+    height: 200px;
+    border-bottom: 1px solid lightslategray;
+     display: flex;
+     justify-content: center;
+}
+.quantity{
+    width: 15%;
+    height: 200px;
+    border-bottom: 1px solid lightslategray;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 10px;
+     justify-content:space-around;
+}
+.total{
+    width: 15%;
+    height: 200px;
+    border-bottom: 1px solid lightslategray;
+     display: flex;
+     justify-content:space-around;
+
+}
+.image{
+    /* width: 30%;
+    height: 100%; */
+    padding: 1%;
+    
+}
+.detail{
+    width: 70%;
+    height: 200px;
+    border-bottom: 1px solid lightslategray;
+}
+.detail p ,.detail a{
+    margin-left :10px ;
+}
+
+.imgcon{
+    width: 100%;
+    height: 100%;
+}
+.quantity button{
+    height: 30px;
+   
+    margin-top: 15px;
+}
+
+
+
+  .orderbody-detail{
+      
+    border: 1px solid lightslategray;
+      width: 100%;
+      margin: auto;
+      margin-top: 40px;
+      
+  }
+  .orderbody-detail >div{
+
+      margin-left: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 10px;
+      padding-right: 20px;
+      
+  }
+  .parar{
+      font-size: 12px;
+  }
+  
+  .Proceed{
+    -webkit-font-smoothing: antialiased;
+    background-color: #4b5666;
+    border: 1px solid #4b5666;
+    color: #fff;
+    cursor: pointer;
+    font-family: Avenir Medium,sans-serif;
+    font-size: 16px;
+    
+    line-height: normal;
+    
+    padding: 15px 20px;
+    
+   
+    transition-property: color,background-color,border-color;
+    width: 100%;
+}
+.paypallogo{
+    width: 80%;
+    height: 50px;
+    border: 1px solid lightslategray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.paypallogo>img{
+    width: 35%;
+    margin: auto;
+    
+}
+.cart2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+.cart2 >div{
+    margin-left: 20px;
+    margin-top: 30px;
+   
+   
+}
+.cart2 > div:first-child{
+    font-size: 28px;
+}
+.cart2 > div +div{
+    margin-right: 20px;
+}
+
+.promocode{
+    height: 50px;
+    padding-bottom: 50px;
+    gap: 10px;
+}
+.promocode> button{
+    -webkit-font-smoothing: antialiased;
+    background-color: #4b5666;
+    border: 1px solid #4b5666;
+    color: #fff;
+    cursor: pointer;
+    font-family: Avenir Medium,sans-serif;
+    font-size: 16px;
+    
+    line-height: normal;
+    
+    
+    height: 50px;
+    
+   
+    transition-property: color,background-color,border-color;
+    width: 40%;
+   
+}
+.promocode input{
+    height: 40px;
+}

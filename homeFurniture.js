@@ -58,6 +58,14 @@ document.querySelector("#myHeader").innerHTML = menu()
 
 import { footer , read } from "./footer.js";
 
+let rrr =  document.getElementById("imgbag");
+rrr.addEventListener("click",function(){
+    window.location = "./cart.html"
+})
+
+
+
+
 document.querySelector(".foter").innerHTML = footer();
 document.querySelector(".read").innerHTML = read();
 
@@ -203,6 +211,10 @@ displayProduct(dataArr)
 function displayProduct(dataArr){
     dataArr.forEach(function(ele){
     var divall=document.createElement("div");
+    divall.addEventListener("click",function(){
+        console.log(ele)
+        clickfunction(ele)
+    })
     var divgrid=document.createElement("div");
 
     var img=document.createElement("img");
@@ -280,5 +292,74 @@ function Shortfun(){
         })
     }
     document.querySelector(".productitems").innerHTML="";
-    display(h)
+    displayProduct(h)
+}
+
+
+
+var s=document.getElementById("searchApi")
+s.addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') {
+        addData(document.getElementById("searchApi").value)
+    }
+});
+
+async function addData(value){
+    console.log(value);
+    let res= await fetch(`https://api.unsplash.com/search/photos/?query=${value}&per_page=20&order_by=popular&client_id=Yz8awH82cVnQp-SW2c1VarbUkhVHzhlKrs26pZihfNk`)
+
+    let data = await res.json()
+    product1(data.results)
+}
+
+function product1(data){
+    console.log(data)
+    if(data.length==0){
+        displayProduct(dataArr)
+    }else{
+    document.querySelector(".productitems").innerHTML=null
+    data.forEach(function(ele){
+        var divall=document.createElement("div");
+        var divgrid=document.createElement("div");
+    
+        var img=document.createElement("img");
+        img.setAttribute("class","image")
+        img.src=ele.urls.raw;
+    
+        var name=document.createElement("p");
+        name.setAttribute("class","p")
+        name.innerHTML=ele.alt_description;
+    
+        var price=document.createElement("p");
+        price.setAttribute("class","p")
+        price.innerHTML="$"+ Math.floor(Math.random() * 1000);
+        ;
+    
+        var btn1=document.createElement("button");
+        btn1.setAttribute("id","btn1")
+        var btn2=document.createElement("button");
+        btn2.setAttribute("id","btn2")
+        var btn3=document.createElement("button");
+        btn3.setAttribute("id","btn3")
+        var btn4=document.createElement("button");
+        btn4.setAttribute("id","btn4")
+        var divbtn = document.createElement("div");
+        divbtn.setAttribute("id","divbtn");
+        divbtn.append(btn1,btn2,btn3,btn4)
+        divall.append(img,name,price,divbtn);
+        divall.addEventListener("click",function(){
+            
+            localStorage.setItem("cartdata",JSON.stringify(ele))
+        })
+    
+        divgrid.append(divall)
+        document.querySelector(".productitems").append(divgrid)
+    
+        
+    })
+}
+}
+function clickfunction(el){
+    localStorage.setItem("clickeditem",JSON.stringify(el))
+   window.location.href="description.html"
 }
