@@ -10,6 +10,8 @@
 - font Awesom icons
 - bootstrap (for styling flash mesage)
 
+<h4>This is our landing page </h4>
+<img src="https://drive.google.com/file/d/1YuvqFuIY0lxCQgrykuBF0-ed1nDgsBia/view?usp=share_link" width="700"/>
 
 ### TEAM MEMBERS>
 
